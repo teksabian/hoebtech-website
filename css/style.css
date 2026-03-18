@@ -76,8 +76,8 @@ ul{list-style:none}
 .hero-btns{display:flex;gap:1rem;flex-wrap:wrap}
 
 .hero-visual{display:flex;justify-content:center;align-items:center;position:relative}
-.hero-logo-container{position:relative;width:400px;height:400px;display:flex;align-items:center;justify-content:center}
-.hero-logo-container img{width:340px;height:auto;animation:float 6s ease-in-out infinite;position:relative;z-index:2;mix-blend-mode:lighten}
+.hero-logo-container{position:relative;width:400px;height:400px;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:50%}
+.hero-logo-container img{width:140%;height:140%;object-fit:cover;object-position:center 45%;animation:float 6s ease-in-out infinite;position:relative;z-index:2;filter:drop-shadow(0 0 50px rgba(20,184,166,.2))}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
 
 /* Animated rings */
@@ -203,7 +203,7 @@ ul{list-style:none}
 @media(max-width:968px){
   .hero-content{grid-template-columns:1fr;text-align:center;gap:2.5rem}
   .hero-text{margin:0 auto}.hero-sub{margin:0 auto 2.5rem}.hero-btns{justify-content:center}
-  .hero-visual{order:-1}.hero-logo-container{width:300px;height:300px}.hero-logo-container img{width:260px}
+  .hero-visual{order:-1}.hero-logo-container{width:300px;height:300px}.hero-logo-container img{width:140%;height:140%}
   .services-grid{grid-template-columns:1fr;max-width:500px;margin:0 auto}
   .gng-content{grid-template-columns:1fr;text-align:center}.gng-visual{order:-1}
   .gng-label{justify-content:center}.gng-features{justify-items:start;max-width:340px;margin:2rem auto 2.5rem}
