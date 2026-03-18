@@ -36,8 +36,8 @@ ul{list-style:none}
 .nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.1rem 0;transition:all .4s ease}
 .nav.scrolled{background:rgba(6,13,23,.93);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid rgba(20,184,166,.1);padding:.65rem 0}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;width:var(--container);margin:0 auto}
-.nav-logo img{height:44px;width:auto;transition:.3s ease}
-.nav.scrolled .nav-logo img{height:36px}
+.nav-logo{font-family:var(--font-d);font-size:1.15rem;font-weight:700;color:var(--pure);letter-spacing:-.01em;transition:.3s ease}
+.nav.scrolled .nav-logo{font-size:1.05rem}
 .nav-links{display:flex;gap:2.2rem;align-items:center}
 .nav-links a{font-family:var(--font-d);font-size:.88rem;font-weight:500;color:var(--steel-light);transition:.3s ease;position:relative}
 .nav-links a:not(.nav-cta)::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:linear-gradient(90deg,var(--teal),var(--cyan));transition:.3s ease;border-radius:1px}
@@ -75,7 +75,8 @@ ul{list-style:none}
 .hero-sub{font-size:1.15rem;line-height:1.75;color:var(--steel-light);margin-bottom:2.5rem;max-width:480px}
 .hero-btns{display:flex;gap:1rem;flex-wrap:wrap}
 
-.hero-visual{display:flex;justify-content:center;align-items:center;position:relative}
+.hero-visual{display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;gap:1.2rem}
+.hero-logo-label{font-family:var(--font-d);font-size:1.1rem;font-weight:600;color:var(--steel-light);letter-spacing:.08em;text-transform:uppercase;text-align:center}
 .hero-logo-container{position:relative;width:400px;height:400px;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:50%}
 .hero-logo-container img{width:115%;height:115%;object-fit:cover;object-position:center 47%;animation:float 6s ease-in-out infinite;position:relative;z-index:2;filter:drop-shadow(0 0 50px rgba(20,184,166,.2))}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
