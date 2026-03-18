@@ -77,7 +77,7 @@ ul{list-style:none}
 
 .hero-visual{display:flex;justify-content:center;align-items:center;position:relative}
 .hero-logo-container{position:relative;width:400px;height:400px;display:flex;align-items:center;justify-content:center}
-.hero-logo-container img{width:340px;height:auto;filter:drop-shadow(0 0 50px rgba(20,184,166,.2)) drop-shadow(0 0 100px rgba(20,184,166,.08));animation:float 6s ease-in-out infinite;position:relative;z-index:2}
+.hero-logo-container img{width:340px;height:auto;filter:drop-shadow(0 0 50px rgba(20,184,166,.2)) drop-shadow(0 0 100px rgba(20,184,166,.08));animation:float 6s ease-in-out infinite;position:relative;z-index:2;mix-blend-mode:lighten}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
 
 /* Animated rings */
