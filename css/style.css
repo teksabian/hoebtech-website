@@ -175,7 +175,7 @@ ul{list-style:none}
 .val p{font-size:.87rem;color:var(--steel-light);line-height:1.6}
 .about-visual{display:flex;justify-content:center;position:relative}
 .about-img-wrap{position:relative}
-.about-img-wrap img{max-width:380px;border-radius:16px;border:1px solid rgba(20,184,166,.1);box-shadow:0 25px 60px rgba(0,0,0,.3)}
+.about-img-wrap img{max-width:420px}
 .about-badge{position:absolute;bottom:-18px;left:-24px;background:var(--navy);border:1px solid rgba(20,184,166,.2);border-radius:12px;padding:1rem 1.6rem;text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.35)}
 .about-badge .num{font-family:var(--font-d);font-size:2rem;font-weight:800;background:linear-gradient(135deg,var(--teal),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1}
 .about-badge .lbl{font-size:.72rem;color:var(--steel-light);margin-top:.2rem;letter-spacing:.05em}
